@@ -23,7 +23,7 @@ struct ContentView: View {
         GalleryItem(color: .red, title: "title6"),
         GalleryItem(color: .gray, title: "title7")
         
-    ]
+]
     var itemsize = CGSize(width:100, height: 100)
     var scrollviewsize = CGSize(width: 414, height: 300)
     var leadingPadding: CGFloat{
